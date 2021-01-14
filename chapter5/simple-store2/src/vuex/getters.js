@@ -1,5 +1,5 @@
 export default {
   getMessage(state) {
-    return state.msg.toUpperCase()
+    return state.message.toUpperCase()
   }
 }
