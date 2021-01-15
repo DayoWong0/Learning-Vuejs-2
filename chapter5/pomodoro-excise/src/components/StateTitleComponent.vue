@@ -1,25 +1,25 @@
-<template lang='jade'>
-  h3 {{ isworking ? workingtitle : restingtitle }}
+<template>
+  <div>
+    <h3>
+      {{ isWorking ? workingTitle : restingTitle }}
+    </h3>
+  </div>
 </template>
 
+<style scoped>
+</style>
+
 <script>
-  import { isWorking } from '../vuex/getters'
+  import {mapGetters} from 'vuex'
 
   export default {
     data () {
       return {
-        workingtitle: 'Work!',
-        restingtitle: 'Rest!'
+        workingTitle: 'Work!',
+        restingTitle: 'Rest!'
       }
     },
-    vuex: {
-      getters: {
-        isworking: isWorking
-      }
-    }
+    computed: mapGetters(['isWorking'])
   }
 </script>
-
-<style scoped>
-</style>
 

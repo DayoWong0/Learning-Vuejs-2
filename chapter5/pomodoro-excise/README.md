@@ -1,6 +1,6 @@
-# shopping-list
+# pomodoro
 
-> Pomodoro application
+> A Vue.js project
 
 ## Build Setup
 
