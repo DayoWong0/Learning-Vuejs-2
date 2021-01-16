@@ -5,7 +5,7 @@
     i.glyphicon.glyphicon-pause
   button(title='stop' @click='stop', :disabled='!isStarted')
     i.glyphicon.glyphicon-stop
-  i.toggle-volume.glyphicon(v-show='isStarted && !isPaused && isWorking', :class="{ 'glyphicon-volume-off': isSoundEnabled, 'glyphicon-volume-up': !isSoundEnabled }", @click='toggleSound')
+  i.toggle-volume.glyphicon(v-show='isStarted && !isPaused && isWorking', :class="{ 'glyphicon-volume-up': isSoundEnabled, 'glyphicon-volume-off': !isSoundEnabled }", @click='toggleSound')
 </template>
 
 <script>
