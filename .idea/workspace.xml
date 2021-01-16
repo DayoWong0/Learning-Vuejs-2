@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27b36866-576a-4ba9-a4b4-f2b5d4251890" name="Default" comment="finish chapter5">
+    <list default="true" id="27b36866-576a-4ba9-a4b4-f2b5d4251890" name="Default" comment="finish chapter6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/pomodoro/src/components/ControlsComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/chapter6/pomodoro/src/components/ControlsComponent.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +97,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -123,7 +123,7 @@
       <recent name="H:\VSCodeProjects\Learning-Vuejs-2\chapter5\pomodoro-excise\src" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev (5)">
+  <component name="RunManager" selected="npm.dev (2)">
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="INTERPRETER_PATH" value="/bin/bash" />
@@ -141,6 +141,35 @@
     <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
       <method />
     </configuration>
+    <configuration name="mutations.js.ADD_SHOPPING_LIST" type="JavaScriptTestRunnerKarma" temporary="true" nameIsGenerated="true">
+      <config-file value="$PROJECT_DIR$/chapter7/shopping-list/test/unit/karma.conf.js" />
+      <karma-package-dir value="$PROJECT_DIR$/chapter7/shopping-list/node_modules/karma" />
+      <working-directory value="$PROJECT_DIR$/chapter7/shopping-list" />
+      <node-interpreter value="project" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file-path value="$PROJECT_DIR$/chapter7/shopping-list/test/unit/specs/vuex/mutations.spec.js" />
+      <test-names>
+        <test-name value="mutations.js" />
+        <test-name value="ADD_SHOPPING_LIST" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="mutations.js.ADD_SHOPPING_LIST.should not add the item if item is empty" type="JavaScriptTestRunnerKarma" temporary="true" nameIsGenerated="true">
+      <config-file value="$PROJECT_DIR$/chapter7/shopping-list/test/unit/karma.conf.js" />
+      <karma-package-dir value="$PROJECT_DIR$/chapter7/shopping-list/node_modules/karma" />
+      <working-directory value="$PROJECT_DIR$/chapter7/shopping-list" />
+      <node-interpreter value="project" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file-path value="$PROJECT_DIR$/chapter7/shopping-list/test/unit/specs/vuex/mutations.spec.js" />
+      <test-names>
+        <test-name value="mutations.js" />
+        <test-name value="ADD_SHOPPING_LIST" />
+        <test-name value="should not add the item if item is empty" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -150,38 +179,18 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="dev (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/chapter7/pomodoro/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="dev (2)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/chapter5/pomodoro4/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="dev" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="dev (3)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/chapter6/pomodoro-excise/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="dev" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="dev (4)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/chapter6/pomodoro/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="dev" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="dev (5)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/chapter6/pomodoro3/package.json" />
+      <package-json value="$PROJECT_DIR$/chapter6/shopping-list/package.json" />
       <command value="run" />
       <scripts>
         <script value="dev" />
@@ -191,7 +200,7 @@
       <method v="2" />
     </configuration>
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/chapter5/pomodoro-excise/package.json" />
+      <package-json value="$PROJECT_DIR$/chapter7/shopping-list/package.json" />
       <command value="run" />
       <scripts>
         <script value="dev" />
@@ -214,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.dev (5)" />
-        <item itemvalue="npm.dev (4)" />
-        <item itemvalue="npm.dev (3)" />
         <item itemvalue="npm.dev (2)" />
+        <item itemvalue="Karma.mutations.js.ADD_SHOPPING_LIST.should not add the item if item is empty" />
+        <item itemvalue="Karma.mutations.js.ADD_SHOPPING_LIST" />
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.dev (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +250,7 @@
       <workItem from="1610618649943" duration="10184000" />
       <workItem from="1610643936804" duration="888000" />
       <workItem from="1610681039038" duration="25409000" />
-      <workItem from="1610790113484" duration="6091000" />
+      <workItem from="1610790113484" duration="9669000" />
     </task>
     <task id="LOCAL-00001" summary="upto simple-store3 P236">
       <created>1610641688661</created>
@@ -264,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610723058164</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="finish chapter6">
+      <created>1610803395495</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1610803395495</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -318,7 +334,8 @@
     <MESSAGE value="upto simple-store3 P236" />
     <MESSAGE value="finish chapter5 shoppingList2-excise" />
     <MESSAGE value="finish chapter5" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish chapter5" />
+    <MESSAGE value="finish chapter6" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish chapter6" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/chapter3/shopping-list/src/App.vue">
